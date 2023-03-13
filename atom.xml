@@ -6,7 +6,7 @@
   <link href="https://phc05.github.io/atom.xml" rel="self"/>
   
   <link href="https://phc05.github.io/"/>
-  <updated>2023-03-13T08:36:00.654Z</updated>
+  <updated>2023-03-13T09:10:23.896Z</updated>
   <id>https://phc05.github.io/</id>
   
   <author>
@@ -21,21 +21,21 @@
     <link href="https://phc05.github.io/posts/83538815.html"/>
     <id>https://phc05.github.io/posts/83538815.html</id>
     <published>2023-03-04T05:43:17.000Z</published>
-    <updated>2023-03-13T08:36:00.654Z</updated>
+    <updated>2023-03-13T09:10:23.896Z</updated>
     
-    <content type="html"><![CDATA[<img src="/posts/83538815/123.png" class="" alt="123">]]></content>
+    <content type="html"><![CDATA[<h1 id="hexo图片上传问题解决"><a href="#hexo图片上传问题解决" class="headerlink" title="hexo图片上传问题解决"></a>hexo图片上传问题解决</h1><p>基础配置后发现图片无法上传</p><img src="/posts/83538815/image-20230313170944147.png" class="" alt="image-20230313170944147"><h2 id="修改配置文件config-yml"><a href="#修改配置文件config-yml" class="headerlink" title="修改配置文件config.yml"></a>修改配置文件config.yml</h2><pre class="line-numbers language-none"><code class="language-none">post_asset_folder: true<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>设置之后会在</p><pre class="line-numbers language-none"><code class="language-none">hexo n xx<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>生成一个与markdown同名的文件夹（我主要用于管理文件）</p><h2 id="修改typora图片设置"><a href="#修改typora图片设置" class="headerlink" title="修改typora图片设置"></a>修改typora图片设置</h2><p>设置如图</p><img src="/posts/83538815/image-20230313170415592.png" class="" alt="image-20230313170415592"><pre class="line-numbers language-none"><code class="language-none">.&#x2F;$&#123;filename&#125;&#x2F; 复制时会将图片保存在同名文件夹<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>复制时会将图片保存在同名文件夹，就不用单独去放了</p><h2 id="安装hexo官方图片配置插件"><a href="#安装hexo官方图片配置插件" class="headerlink" title="安装hexo官方图片配置插件"></a>安装hexo官方图片配置插件</h2><p>在根目录运行cmd</p><pre class="line-numbers language-none"><code class="language-none">npm install hexo-asset-image -- save<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>安装即可</p><p>配置过后图片上传成功</p><img src="/posts/83538815/123.png" class="" alt="123">]]></content>
     
     
       
       
-    <summary type="html">&lt;img src=&quot;/posts/83538815/123.png&quot; class=&quot;&quot; alt=&quot;123&quot;&gt;
-</summary>
+    <summary type="html">&lt;h1 id=&quot;hexo图片上传问题解决&quot;&gt;&lt;a href=&quot;#hexo图片上传问题解决&quot; class=&quot;headerlink&quot; title=&quot;hexo图片上传问题解决&quot;&gt;&lt;/a&gt;hexo图片上传问题解决&lt;/h1&gt;&lt;p&gt;基础配置后发现图片无法上传&lt;/p&gt;
+&lt;img src=&quot;/p</summary>
       
     
     
     
     
-    <category term="test" scheme="https://phc05.github.io/tags/test/"/>
+    <category term="blog配置" scheme="https://phc05.github.io/tags/blog%E9%85%8D%E7%BD%AE/"/>
     
   </entry>
   
